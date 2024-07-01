@@ -1,7 +1,7 @@
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-// módulo cliente
+// módulo cliente 
 public class HelloClient {
 
     public static void main(String[] args) {

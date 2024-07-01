@@ -1,7 +1,7 @@
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-// Interface
+// Interface 
 public interface Hello extends Remote {
     String hello() throws RemoteException;
 }

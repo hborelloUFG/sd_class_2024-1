@@ -3,7 +3,7 @@ import java.rmi.server.UnicastRemoteObject;
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 
-// Servidor
+// Servidor 
 public class HelloServer extends UnicastRemoteObject implements Hello {
 
     protected HelloServer() throws RemoteException {
